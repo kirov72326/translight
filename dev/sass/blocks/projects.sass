@@ -1,0 +1,79 @@
+.projects
+  position: relative
+  background-color: #FFFFFF
+
+.projects__cont
+  padding-top: 150px
+
+.projects__title
+  position: relative
+  padding-left: 140px
+  padding-top: 6px
+  margin-bottom: 70px
+
+.projects__title::before
+  content: ''
+  position: absolute
+  top: 19px
+  left: 0
+  background-image: url("../img/decor-heading.svg")
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: center
+  width: 100px
+  height: 16px
+
+.projects__list
+  display: flex
+  overflow-x: hidden
+
+.projects__item
+  display: inline-block
+  margin-right: 30px
+
+
+.projects__link
+  position: relative
+  //display: inline-block
+  width: 540px
+  height: 400px
+
+.projects__link::before
+  content: ''
+  position: absolute
+  display: block
+  width: 540px
+  height: 400px
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+
+.projects__link:hover::before
+  background: none
+
+.projects__link-img
+  display: block
+  width: 540px
+  height: 400px
+
+.projects__description
+  position: absolute
+  bottom: 35px
+  right: 35px
+  //display: inline-block
+  width: 250px
+  height: 110px
+  padding: 20px 25px
+  background-color: #FFFFFF
+  overflow: hidden
+
+.projects__description__title
+  color: #343434
+  margin-bottom: 14px
+
+.projects__description__text
+  color: #343434
+
+.projects__slider-buttons
+  position: absolute
+  top: -110px
+  right: 0
+  z-index: 50

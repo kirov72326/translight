@@ -1,0 +1,27 @@
+section.product
+    .product__cont.cont
+        h2.title.product__title
+            |  Два формата
+        .product__list
+            .product__item
+                picture.product__picture
+                img.product__image(src="./img/product__card.png", alt='logo', width='521', height='356')
+                | #[span.product__text Карточка]
+                p.product__info
+                 | Формат банковской карты или визитки. Удобно носить в кармане или бумажнике.
+                .product__price-box
+                    | #[span.product__price.product__price_num 1200]
+                    | #[span.product__price.product__price_rub Р]
+                a.btn.product__btn(href='#') Заказать
+            .product__item
+                picture.product__picture
+                img.product__image.product__image-perdant(src="./img/product__perdant.png", alt='logo', width='220', height='168')
+                | #[span.product__text Кулон]
+                p.product__info
+                    | Можно повесить на шею, браслет или связку ключей.
+                .product__price-box
+                    | #[span.product__price.product__price_num 850]
+                    | #[span.product__price.product__price_rub Р]
+                a.btn.product__btn(href='#') Заказать
+
+
